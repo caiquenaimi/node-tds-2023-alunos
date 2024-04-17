@@ -23,7 +23,7 @@ export default class UsersRepository {
       /* console.log(user); */
       return user;
     } catch (error) {
-      console.log("Failed to get user by id", error);
+      console.log(`Failed to get user with id: ${id}`, error);
       throw error;
     }
   }
